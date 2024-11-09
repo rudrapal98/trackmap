@@ -1,0 +1,60 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+.pnpm-store/
+jspm_packages/
+
+# Build files and directories
+dist/
+build/
+coverage/
+
+# Cache and temporary files
+.nyc_output/
+.cache/
+.tmp/
+
+# OS-specific files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# Editor or IDE specific
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Debugging and profiling files
+*.pid
+*.seed
+*.pid.lock
+node_modules/.cache
+
+# Optional npm cache directory
+.npm
+
+# Yarn and package lock files
+.yarn-integrity
+.yarn/cache
+.pnp.*
+.yarnrc.yml
+
+# Optional: Docker and deployment files
+docker-compose.override.yml
+Dockerfile
+.dockerignore
+.env.*
+
+# Jest and testing cache
+jest-html-reporters-*.html
+.jest/
